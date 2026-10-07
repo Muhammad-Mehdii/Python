@@ -1,0 +1,26 @@
+physics=int(input("emter Marks of physics :"))
+math=int(input("emter Marks of Math :"))
+computer=int(input("emter Marks of computer :"))
+isl=int(input("emter Marks of islamiyat :"))
+english=int(input("emter Marks of english :"))
+urdu=int(input("emter Marks of urdu :"))
+Total_marks=int(input("Enter Total Marks :"))
+obtain_marks=physics+math+computer+isl+english+urdu
+persentage=(obtain_marks/Total_marks)*100
+print("\n")
+print(f"you got {persentage} % in exam")
+if persentage>100:
+    print("Invalid Marks")
+elif persentage>90 and persentage<=100:
+    print("you got A+ Grade")
+elif persentage>80 and persentage<=90:
+    print("you got A Grade")
+elif persentage>70 and persentage<=80:
+    print("you got B Grade")
+elif persentage>60 and persentage<=70:
+    print("you got C Grade")
+elif persentage>50 and persentage<=60:
+    print("you got D Grade")
+else:
+    print("you failed")
+
