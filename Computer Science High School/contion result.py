@@ -1,3 +1,4 @@
+name=input("enter your name :")
 physics=int(input("emter Marks of physics :"))
 math=int(input("emter Marks of Math :"))
 computer=int(input("emter Marks of computer :"))
@@ -8,6 +9,7 @@ Total_marks=int(input("Enter Total Marks :"))
 obtain_marks=physics+math+computer+isl+english+urdu
 persentage=(obtain_marks/Total_marks)*100
 print("\n")
+print(f"your name is : {name}\nphysics {physics}\nmath : {math}\ncomputer : {computer} \nislamiyat : {isl}\nenglish : {english}\nurdu : {urdu}")
 print(f"you got {persentage} % in exam")
 if persentage>100:
     print("Invalid Marks")
@@ -21,6 +23,8 @@ elif persentage>60 and persentage<=70:
     print("you got C Grade")
 elif persentage>50 and persentage<=60:
     print("you got D Grade")
+elif persentage>50 and persentage<=100:
+    print("Status Pass")
 else:
-    print("you failed")
+    print("your dot F Grade \nStatus failed")
 
