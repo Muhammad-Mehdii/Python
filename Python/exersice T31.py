@@ -1,0 +1,6 @@
+name,character=input("Enter your name and character to count: ").split(",")
+Length=len(name)
+print("The length of the string is:",Length)
+lower=name.lower()
+count=lower.count(character)
+print("The number of occurrences of '",character,"' in the string is:",count)
