@@ -6,4 +6,4 @@ n=10
 d=1
 a1=1
 sn=n/2*(2*a1+(n-1)*d)
-print("sum of first 10 natural numbers is : ",sn)
+print("\n\nsum of first 10 natural numbers is : ",sn)
