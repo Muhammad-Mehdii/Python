@@ -1,14 +1,19 @@
-for i in range(50,100,5):
-    print(i,"whats new")
+print("\n\n")
+for i in range(1,6):
+    print("*"*i)
+
+#*
+#**
+#***
+#****
+#*****
 
 print("\n\n")
-for i in range(6):
-    print((i+1)*"*")
+for i in range(1,6):
+    print(" "*(5-i)+"*"*i)
 
-print("\n\n")
-for i in range(6,0,-1):
-    print((i)*"*")
-
-print("\n\n")
-
-
+#    *
+#   **
+#  ***
+# ****
+#*****
