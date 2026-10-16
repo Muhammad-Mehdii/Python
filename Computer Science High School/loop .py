@@ -1,9 +1,12 @@
-sum=0
 for i in range(10):
-    sum=sum+(i+1)
-    print(sum)
-n=10
-d=1
-a1=1
-sn=n/2*(2*a1+(n-1)*d)
-print("\n\nsum of first 10 natural numbers is : ",sn)
+    print("Hello World!")
+print("\n\n")
+for a in range(1,20):
+    print(f"{a}kips")
+print("\n\n")
+for l in range(2,22,2):
+    print(l,end= "")
+print("\n\n")
+x=int(input("enter nume : "))
+for k in range(11):
+    print(f"{x} x {k} = {x*k}")

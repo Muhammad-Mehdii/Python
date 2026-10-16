@@ -13,4 +13,3 @@ if name == "mir" or age ==14 :
     print("Condition True")
 else:
     print("Condition Fales")
-
