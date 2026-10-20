@@ -1,21 +1,28 @@
 print("\n\n")
 
-for i in range(1,6):
-    print("*"*i)
+for a in range(1,6):
+    print("*"*a)
 
 #*
 #**
 #***
 #****
 #*****
+print("\n\n")
+
+for b in range(5,0,-1):
+    print("*"*(b))
+
+
 
 print("\n\n")
 
-for i in range(1,6):
-    print(" "*(5-i)+"*"*i)
+for c in range(1,6):
+    print(" "*(5-c)+"*"*c)
+
 
 #    *
 #   **
-#  ***`` 
+#  ***
 # ****
 #*****
