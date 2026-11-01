@@ -6,3 +6,4 @@ while i < len(name):
         temp_var += name[i]
         print(name[i] , ":" , name.count(name[i]))
     i += 1
+print("loop end")
