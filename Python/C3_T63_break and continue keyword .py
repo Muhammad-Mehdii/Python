@@ -12,5 +12,3 @@ for i in range(1, 11):
         continue
     print(f"hellow world : {i}")
 
-git config --global user.name "Muhammad-Mehdii"
-git config --global user.email "mirs.icloud@gmail.com"
